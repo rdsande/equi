@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
   <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
 
-  <!-- Scripts -->
+  <!-- FontAwesome-->
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"/>
   <script src="https://use.fontawesome.com/c733b6ace3.js"></script>
 
 </head>
@@ -69,6 +70,7 @@
       
       <div class="eq-search-bar">
        <div class="col-md-12 text-center">
+       <form>
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Cerca performer, Citta, Evento">
             <div class="input-group-append">
@@ -77,9 +79,11 @@
               </button>
             </div>
           </div>
-          <div class="eqsearchtitle">
-            <h5 class="eqsearchtitletext">COMBATTI IL BAGARINAGGIO: COMPRA EQUITICKET!</h5>
-          </div>
+        </form>
+
+        <div class="eqsearchtitle">
+           <h5 class="eqsearchtitletext">COMBATTI IL BAGARINAGGIO: COMPRA EQUITICKET!</h5>
+        </div>
         </div>
       </div>
 
@@ -356,54 +360,106 @@
               </div>
           </div>
         </div>
-        <div class="owl-parlano owl-carousel owl-theme">
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
-            <div class="item eq-shadow" style="width:250px; height: 200px; background-color: grey"></div>
+        <div class="owl-parlano owl-carousel owl-theme section-bg-white eq-shadow">
+            <div class="item">    
+              <div class="box-item-logo">
+                  <img src="/img/wired.png" width="100%" alt="parlano di noi">
+              </div>
+            </div>
         </div>
         
-    </div>
+        </div>
 
 <!-- Footer -->
 <footer id="footer-1">
   <div class="footer-container">
-    <div class="row">
-        <div class="col-md-6 footerpd">
-            <div class="row">
-              <div class="col-md-6 footer-left">
-                  <a class="footer-brand" href="#"><img class="logo" src="img/logo.png"></a>
-              </div>
-              <div class="col-md-6 footer-right">
-                  ssfsdfs
-              </div>
-              <div class="col-md-6">
-                  ssfsdfs
-              </div>
+      <div class="row footer-section-one">
+        <div class="col-md-3">
+          <a class="footer-brand" href="#"><img class="logo" src="img/logo.png"></a>
+
+          <div class="footer-icons">
+              <ul class="footer-icons nav-icons">
+                <li class="icon-nav">
+                  <span class="fa-stack" style="vertical-align: top;">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </li>
+                <li class="icon-nav">
+                  <span class="fa-stack" style="vertical-align: top;">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </li>
+                <li class="icon-nav">
+                  <span class="fa-stack" style="vertical-align: top;">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="eq-footer-title">
+                <span class="footer-title"> Pagamenti Sicuri </span>
+            </div>
+            <div class="eq-payments">
+                <ul class="footer-icons nav-icons">
+                  <li class="icon-nav">
+                      <i class="fa fa-shop"></i>
+                  </li>
+                </ul>
             </div>
         </div>
-        <div class="col-md-6 footerpd">
-            <div class="row">
-              <div class="col-md-6">
-                adadasdas
-              </div>
-              <div class="col-md-6">
-                adadasdas
-              </div>
+        <div class="col-md-3">
+          <div class="footer-menu">
+              <ul class="arrow">
+                  <li>Cos’è Equiticket</li>
+                  <li>Chi Siamo</li>
+                  <li>FAQ</li>
+                  <li>Contattaci</li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+        <div class="footer-menu">
+              <ul class="arrow">
+                  <li>Termini & Condizioni</li>
+                  <li>Cookie Policy</li>
+                  <li>Lavora con noi</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="row footer-section-two">
+        <div class="col-md-6">
+          <div class="copyrights">
+              <span class="single"> &copy; <span id="copyr-year"></span> Fol The Beat Srl </span><span class="single">P.IVA 09321790967 </span><span class="single">Cap. Sociale € 23.703,70 i.v.</span>
+          </div>
+          </div>
+        <div class="col-md-6">
+            <div class="eq-footer-title">
+                <span class="footer-title"> Iscriviti alla newsletter </span>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                cxvxvcxvxvxcvxv xcvxc vcxvxc vxcv xcvcxvc
-              </div>
+            <div class="subscribe">
+              <form>
+                <div class="input-container">
+                  <i class="fa fa-envelope icon eq-icon"></i>
+                     <input class="input-field" type="text" placeholder="Inserisci la tua email">
+                  <i class="fa fa-search icon-srch eq-icon-srch"></i>
+                </div>
+              </form>                
             </div>
         </div>
     </div>
+
   </div>
 </footer>
 
   <!-- Js -->
+  <script src="js/custom.js"></script>
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.min.js"></script>

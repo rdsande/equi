@@ -499,11 +499,14 @@ q:after {
   padding-bottom: 0;
   background: #000;
   color: #fff;
+  padding-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-container{
   width: 70%;
   display: inline-block;
+  text-align: left;
 }
 
 .footerpd{
@@ -518,6 +521,84 @@ q:after {
   padding-bottom: 0;
 }
 
+.footer-section-one {
+  padding: 2rem 0rem;
+} 
+
+.footer-section-two {
+  padding: 2rem 0rem;
+} 
+
+.footer-menu {
+  line-height: 2.5rem;
+}
+
+.copyrights {
+  color: #4d4d4d;
+  font-weight: 600;
+}
+
+.single {
+  display: block;
+}
+
+* {box-sizing: border-box;}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 20px 10px;
+  color: #4d4d4d;
+  min-width: 50px;
+  text-align: center;
+}
+
+.icon-srch {
+  padding: 20px 10px;
+  background: #6aa950;
+  color: #fff;
+  min-width: 50px;
+  text-align: center;
+}
+
+.eq-icon {
+  margin-right: -10%;
+  z-index: 1;
+}
+
+.eq-icon-srch {
+  margin-left: -10%;
+  z-index: 1;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  padding-left: 10%;
+  background: transparent;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  color: #fff;
+}
+
+.input-field:focus {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #6aa950;
+}
+
+
+    /*Footer Menu*/
+
+    ul.arrow {
+      list-style-image: url('/img/arrow.png');
+      }
+      
 /*OWL CAROUSEL */
 
 .owl-prev,
@@ -544,6 +625,14 @@ q:after {
 }
 /* SLIDER */
 
+.section-bg-white {
+  background: #fff;
+}
+
+.box-item-logo {
+  background: #fff;
+  padding: 3rem;
+}
 
   .float-right {
     float: right;
@@ -596,4 +685,35 @@ q:after {
   margin-bottom: 0.6rem;
   margin-right: 1.4rem;
   margin-left: 1.4rem;
+}
+
+/* ICONS FA */
+.fa-inverse {
+  color: #000 !important;
+}
+
+.nav-icons {
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.footer-icons {
+  padding: .4rem 0;
+}
+
+.icon-nav {
+  padding-right: .5rem;
+}
+
+.footer-title {
+  font-weight: 500;
+}
+
+.eq-footer-title {
+  padding-bottom: .5rem; 
 }
