@@ -155,7 +155,7 @@
       <div class="eq-content-carousel-1 clearfix">
         <div class="row">
             <div class="col-md-12">
-              <div class="owl-one owl-carousel owl-theme">
+              <div class="owl-one owl-carousel owl-theme" data-slider-id="1">
                 <!-- SLIDE Content-->
                 <div> 
                   <div class="inside-row">
@@ -191,7 +191,7 @@
                   </div> 
                 </div>
                 <!-- slide end -->
-                                <!-- SLIDE Content-->
+                <!-- SLIDE Content-->
                 <div> 
                   <div class="inside-row">
                     <div class="col-md-6 eq-with-black">
@@ -226,45 +226,114 @@
                   </div> 
                 </div>
                 <!-- slide end -->
-                                <!-- SLIDE Content-->
-                                <div> 
-                                    <div class="inside-row">
-                                      <div class="col-md-6 eq-with-black">
-                                        <div class="row">
-                                          <div class="col-md-12 eq-sld-poster">
-                                              <img src="img/event.png">
-                                          </div>
-                                        </div>
-                                        <div class="row eq-sld-right">
-                                            <div class="col-md-6 eq-sld-price">
-                                                <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
-                                            </div>
-                                            <div class="col-md-6 eq-sld-btn">
-                                              <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
-                                            </div>
-                                          </div>                        
-                                      </div>
-                                      <div class="col-md-6">
-                                        <div class="eq-sld-eventdesc">
-                                          <div class="eq-sld-eventdesc-title">
-                                            <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
-                                          </div>
-                                          <div class="eq-sld-eventdesc-parag">
-                                              <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
-                                                PISTA 2 HOT IN HERE /hip hop/reggaeton/trap
-                                                PISTA 3 Techno/ Tech-House </p>
-                                              <p>Cosa sentirai in pista: Bob Sinclar, Ricky Martin, Daft Punk,Outkast, Piotta, Mik, Caparezza,883, Cartoon, Gigi d'Agostino e tanti altri.. che hanno fatto la storia degli anni 90 e 2000. Non dimenticarti di portare...</p>
-                                              <button type="button" class="btn btn-type-3 color-transparent">Continua a leggera</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div> 
-                                  </div>
-                                  <!-- slide end -->
+                <!-- SLIDE Content-->
+                <div> 
+                  <div class="inside-row">
+                    <div class="col-md-6 eq-with-black">
+                      <div class="row">
+                        <div class="col-md-12 eq-sld-poster">
+                            <img src="img/event.png">
+                        </div>
+                      </div>
+                      <div class="row eq-sld-right">
+                          <div class="col-md-6 eq-sld-price">
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                          </div>
+                          <div class="col-md-6 eq-sld-btn">
+                            <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
+                          </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6">
+                      <div class="eq-sld-eventdesc">
+                        <div class="eq-sld-eventdesc-title">
+                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                        </div>
+                        <div class="eq-sld-eventdesc-parag">
+                            <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
+                              PISTA 2 HOT IN HERE /hip hop/reggaeton/trap
+                              PISTA 3 Techno/ Tech-House </p>
+                            <p>Cosa sentirai in pista: Bob Sinclar, Ricky Martin, Daft Punk,Outkast, Piotta, Mik, Caparezza,883, Cartoon, Gigi d'Agostino e tanti altri.. che hanno fatto la storia degli anni 90 e 2000. Non dimenticarti di portare...</p>
+                            <button type="button" class="btn btn-type-3 color-transparent">Continua a leggera</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <!-- slide end -->
+                <!-- SLIDE Content-->
+                <div> 
+                  <div class="inside-row">
+                    <div class="col-md-6 eq-with-black">
+                      <div class="row">
+                        <div class="col-md-12 eq-sld-poster">
+                            <img src="img/event.png">
+                        </div>
+                      </div>
+                      <div class="row eq-sld-right">
+                          <div class="col-md-6 eq-sld-price">
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                          </div>
+                          <div class="col-md-6 eq-sld-btn">
+                            <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
+                          </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6">
+                      <div class="eq-sld-eventdesc">
+                        <div class="eq-sld-eventdesc-title">
+                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                        </div>
+                        <div class="eq-sld-eventdesc-parag">
+                            <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
+                              PISTA 2 HOT IN HERE /hip hop/reggaeton/trap
+                              PISTA 3 Techno/ Tech-House </p>
+                            <p>Cosa sentirai in pista: Bob Sinclar, Ricky Martin, Daft Punk,Outkast, Piotta, Mik, Caparezza,883, Cartoon, Gigi d'Agostino e tanti altri.. che hanno fatto la storia degli anni 90 e 2000. Non dimenticarti di portare...</p>
+                            <button type="button" class="btn btn-type-3 color-transparent">Continua a leggera</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <!-- slide end -->
+                <!-- SLIDE Content-->
+                <div> 
+                  <div class="inside-row">
+                    <div class="col-md-6 eq-with-black">
+                      <div class="row">
+                        <div class="col-md-12 eq-sld-poster">
+                            <img src="img/event.png">
+                        </div>
+                      </div>
+                      <div class="row eq-sld-right">
+                          <div class="col-md-6 eq-sld-price">
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                          </div>
+                          <div class="col-md-6 eq-sld-btn">
+                            <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
+                          </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6">
+                      <div class="eq-sld-eventdesc">
+                        <div class="eq-sld-eventdesc-title">
+                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                        </div>
+                        <div class="eq-sld-eventdesc-parag">
+                            <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
+                              PISTA 2 HOT IN HERE /hip hop/reggaeton/trap
+                              PISTA 3 Techno/ Tech-House </p>
+                            <p>Cosa sentirai in pista: Bob Sinclar, Ricky Martin, Daft Punk,Outkast, Piotta, Mik, Caparezza,883, Cartoon, Gigi d'Agostino e tanti altri.. che hanno fatto la storia degli anni 90 e 2000. Non dimenticarti di portare...</p>
+                            <button type="button" class="btn btn-type-3 color-transparent">Continua a leggera</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <!-- slide end -->
               </div>
             </div>
         </div>
-        <!-- Thumbnails -->
       </div>
     </div>
 

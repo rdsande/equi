@@ -446,7 +446,7 @@ background-clip: padding-box;
 
 .eq-sc-title-span {
   font-weight: 700;
-  display: block;
+  display: inline-block;
 }
 
 .eq-sc-p {
@@ -665,6 +665,10 @@ q:after {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  padding: 10px 20px !important;
+  background: #000 !important;
+  border-radius: 0px !important;
+  border: none !important;
 }
 
 .owl-prev {
@@ -675,55 +679,51 @@ q:after {
   right: -3rem;
 }
 
+button.owl-thumb-item.active {
+  opacity: 1;
+}
+
+button.owl-thumb-item {
+  opacity: .5;
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.owl-thumbs {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: inherit;
+} 
+
+
 /* NAV TYPE 2 */
 .owl-prev-two,
 .owl-next-two {
   position: absolute;
   top: 10%;
   transform: translateY(-50%);
+  font-size: 14px;
+  margin: 5px;
+  padding: 10px 20px !important;
+  background: #000 !important;
+  color: #FFF;
+  display: inline-block;
+  cursor: pointer !important;
+  border-radius: 0px !important;
+  border: none !important;
 }
 
 .owl-prev-two {
   right: -0.3rem;
-  color: #FFF;
-  font-size: 14px;
-  margin: 5px;
-  padding: 10px 20px !important;
-  background: #000 !important;
-  display: inline-block;
-  cursor: pointer !important;
-  border-radius: 0px !important;
-  border: none !important;
 }
 
 .owl-next-two {
-  right: -3.11rem;
-  color: #FFF;
-  font-size: 14px;
-  margin: 5px;
-  padding: 10px 20px !important;
-  background: #000 !important;
-  display: inline-block;
-  cursor: pointer !important;
-  border-radius: 0px !important;
-  border: none !important;
+  right: -3.15rem;
 }
-
-/* NAV TYPE 2 
-.owl-prev,
-.owl-next {
-  position: absolute;
-  top: 10%;
-  transform: translateY(-50%);
-}
-
-.owl-prev {
-  right: 1rem;
-}
-
-.owl-next {
-  right: -2rem;
-} */
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     background: #000 !important;
@@ -736,6 +736,13 @@ q:after {
 
 .section-bg-white {
   background: #fff;
+}
+
+.item {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box-item-logo {

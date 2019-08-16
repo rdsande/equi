@@ -4,7 +4,7 @@ $('.owl-one').owlCarousel({
     margin:10,
     nav:true,
     thumbs:true,
-    thumbsPrerendered:true,
+    thumbImage:true,
     navClass:["owl-prev-two","owl-next-two"],
     responsive:{
         0:{
@@ -26,6 +26,8 @@ $('.owl-one').owlCarousel({
         margin:10,
         nav:true,
         dots:false,
+        thumbs:false,
+        thumbImage:false,
         responsive:{
             0:{
                 items:1
@@ -45,7 +47,9 @@ $('.owl-one').owlCarousel({
         loop:false,
         nav:true,
         dots:false,
-        autoHeight:10,
+        autoHeight:false,
+        thumbs:false,
+        thumbImage:false,
         responsive:{
             0:{
                 items:1
@@ -63,7 +67,9 @@ $('.owl-one').owlCarousel({
     $('.owl-parlano').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
+        thumbs:false,
+        thumbImage:false,
         responsive:{
             0:{
                 items:1
