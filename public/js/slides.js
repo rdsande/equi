@@ -1,10 +1,11 @@
 /*EVENTI IN EVIDENZA */
 $('.owl-one').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:true,
     thumbs:true,
     thumbsPrerendered:true,
+    navClass:["owl-prev-two","owl-next-two"],
     responsive:{
         0:{
             items:1
@@ -17,6 +18,7 @@ $('.owl-one').owlCarousel({
         }
       }
     })
+    
 
 /*CATEGORIE */
     $('.owl-two').owlCarousel({
