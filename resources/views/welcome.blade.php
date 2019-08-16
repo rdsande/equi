@@ -26,8 +26,8 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="topnav navbar-expand-lg static-top">
+  <!-- Top Bar -->
+  <nav class="topnav navbar-expand-lg" id="topnav">
     <div class="container">
       
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -43,10 +43,8 @@
     </div>
   </nav>
 
-  <!-- Page Content -->
-  <div class="eq-hero">
-    <!-- Menu -->
-  <nav class="navbar navbar-expand-lg static-top">
+  <!-- Main Menu -->
+  <nav class="navbar navbar-default navbar-expand-lg static-top main-menu">
       <div class="container">
         <a class="navbar-brand" href="#"><img class="logo" src="{{asset('img/logo.png')}}"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,8 +61,10 @@
           </ul>
         </div>
       </div>
-    </nav>
+  </nav>
 
+  <!-- Page Content -->
+  <div class="eq-hero">
     <!--Search section -->
     <div id="container1">
       
@@ -158,7 +158,7 @@
               <div class="owl-one owl-carousel owl-theme">
                 <!-- SLIDE Content-->
                 <div> 
-                  <div class="row">
+                  <div class="inside-row">
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
@@ -167,7 +167,7 @@
                       </div>
                       <div class="row eq-sld-right">
                           <div class="col-md-6 eq-sld-price">
-                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.00 </h3>
                           </div>
                           <div class="col-md-6 eq-sld-btn">
                             <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
@@ -193,7 +193,7 @@
                 <!-- slide end -->
                                 <!-- SLIDE Content-->
                 <div> 
-                  <div class="row">
+                  <div class="inside-row">
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
@@ -228,7 +228,7 @@
                 <!-- slide end -->
                                 <!-- SLIDE Content-->
                                 <div> 
-                                    <div class="row">
+                                    <div class="inside-row">
                                       <div class="col-md-6 eq-with-black">
                                         <div class="row">
                                           <div class="col-md-12 eq-sld-poster">
@@ -264,6 +264,7 @@
               </div>
             </div>
         </div>
+        <!-- Thumbnails -->
       </div>
     </div>
 
@@ -281,6 +282,7 @@
       </div>
 
       <div class="owl-two owl-carousel owl-theme">
+        <!-- CATEGORY -->
         <div class="col-md-12">
           <div class="box-item eq-shadow">
             <div class="category-image">
@@ -291,6 +293,40 @@
             </div>
           </div>
         </div>
+        <!-- CATEGORY -->
+        <div class="col-md-12">
+          <div class="box-item eq-shadow">
+            <div class="category-image">
+              <img src="img/sport.png" width="100%" alt="category-title">
+            </div>
+            <div class="category-title-container">
+              <span class="eq-sc-title-span">SPORT</span>
+            </div>
+          </div>
+        </div>
+        <!-- CATEGORY -->
+        <div class="col-md-12">
+          <div class="box-item eq-shadow">
+            <div class="category-image">
+              <img src="img/mostre.png" width="100%" alt="category-title">
+            </div>
+            <div class="category-title-container">
+              <span class="eq-sc-title-span">Mostre e musei</span>
+            </div>
+          </div>
+        </div>
+         <!-- CATEGORY -->
+         <div class="col-md-12">
+          <div class="box-item eq-shadow">
+            <div class="category-image">
+              <img src="img/sport.png" width="100%" alt="category-title">
+            </div>
+            <div class="category-title-container">
+              <span class="eq-sc-title-span">SPORT</span>
+            </div>
+          </div>
+        </div>
+
       </div>
       
   </div>
@@ -310,7 +346,7 @@
           <div class="col-md-8 small-box-left eq-shadow">
             <div class="row">
                 <div class="col-md-4 box-icon">
-                    <span class="box-icon-text"><i class="fa fa-question"></i></span>
+                    <span class="box-icon-text"><i class="fa fa-question eq-icon-big"></i></span>
                   </div>
                   <div class="col-md-8 box-desc">
                     <h3 class="eq-sc-title-span"> DUBBI... </h3>
@@ -337,18 +373,54 @@
             </div>
         </div>
       </div>
-      <div class="owl-testimonianze owl-carousel owl-theme">
-        <div class="col-md-12">
-            <div class="box-item eq-shadow">
-                <div class="testimonianze-container">
-                  <q class="blockquote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </q>
-                  <span class="testimonianze-name">Riccardo M</span>
-                </div>
-            </div>
+      <div class="eq-testimonial-section">
+      <div class="col-md-12">
+        <div class="row row-eq-height">
+          <div class="owl-testimonianze owl-carousel owl-theme">
+              <!-- TESTIMONIAL -->
+                    <div class="item box-item-testimonial eq-shadow">
+                        <div class="testimonianze-container">
+                          <q class="blockquote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</q>
+                          <span class="testimonianze-name">Tommaso B.</span>
+                        </div>
+                    </div>
+                
+                <!-- TESTIMONIAL -->
+                    <div class="item box-item-testimonial eq-shadow">
+                        <div class="testimonianze-container">
+                          <q class="blockquote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</q>
+                          <span class="testimonianze-name">Riccardo M.</span>
+                        </div>
+                    </div>
+
+                <!-- TESTIMONIAL -->
+                    <div class="item box-item-testimonial eq-shadow">
+                        <div class="testimonianze-container">
+                          <q class="blockquote">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</q>
+                          <span class="testimonianze-name">Carlo C.</span>
+                        </div>
+                    </div>
+                <!-- TESTIMONIAL -->
+                    <div class="item box-item-testimonial eq-shadow">
+                        <div class="testimonianze-container">
+                          <q class="blockquote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</q>
+                          <span class="testimonianze-name">Valentina L.</span>
+                        </div>
+                    </div>
+                <!-- TESTIMONIAL -->
+                <div class="item box-item-testimonial eq-shadow">
+                        <div class="testimonianze-container">
+                          <q class="blockquote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</q>
+                          <span class="testimonianze-name">Valentina L.</span>
+                        </div>
+                    </div>
+              </div>
         </div>
       </div>
-      
     </div>
+  </div>
+    
+
 
       <!-- PARLANO SECTION -->
 
@@ -361,11 +433,34 @@
           </div>
         </div>
         <div class="owl-parlano owl-carousel owl-theme section-bg-white eq-shadow">
+        <!-- Item Logo -->
             <div class="item">    
+              <div class="box-item-logo">
+                  <img src="/img/corriere.png" width="100%" alt="parlano di noi">
+              </div>
+            </div>
+
+        <!-- Item Logo -->
+        <div class="item">    
+              <div class="box-item-logo">
+                  <img src="/img/fatto.png" width="100%" alt="parlano di noi">
+              </div>
+            </div>
+
+        <!-- Item Logo -->
+        <div class="item">    
               <div class="box-item-logo">
                   <img src="/img/wired.png" width="100%" alt="parlano di noi">
               </div>
             </div>
+
+        <!-- Item Logo -->
+        <div class="item">    
+              <div class="box-item-logo">
+                  <img src="/img/larep.png" width="100%" alt="parlano di noi">
+              </div>
+            </div>
+
         </div>
         
         </div>
@@ -407,7 +502,13 @@
             <div class="eq-payments">
                 <ul class="footer-icons nav-icons">
                   <li class="icon-nav">
-                      <i class="fa fa-shop"></i>
+                      <img src="/img/ame.png" width="100%" alt="Pagamenti Sicuri" alt="American Express"> 
+                  </li>
+                  <li class="icon-nav">
+                      <img src="/img/visa.png" width="100%" alt="Pagamenti Sicuri" alt="Visa"> 
+                  </li>
+                  <li class="icon-nav">
+                      <img src="/img/mcard.png" width="100%" alt="Pagamenti Sicuri" alt="MasterCard"> 
                   </li>
                 </ul>
             </div>
@@ -464,6 +565,7 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.carousel2.thumbs.min.js"></script>
   <script src="js/slides.js"></script>
 
 </body>

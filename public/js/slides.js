@@ -3,6 +3,8 @@ $('.owl-one').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    thumbs:true,
+    thumbsPrerendered:true,
     responsive:{
         0:{
             items:1
@@ -18,9 +20,10 @@ $('.owl-one').owlCarousel({
 
 /*CATEGORIE */
     $('.owl-two').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
         nav:true,
+        dots:false,
         responsive:{
             0:{
                 items:1
@@ -37,9 +40,10 @@ $('.owl-one').owlCarousel({
 /*TESTIMONIANZE */
 
     $('.owl-testimonianze').owlCarousel({
-        loop:true,
-        margin:10,
+        loop:false,
         nav:true,
+        dots:false,
+        autoHeight:10,
         responsive:{
             0:{
                 items:1

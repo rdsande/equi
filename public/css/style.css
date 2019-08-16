@@ -18,19 +18,52 @@ html {
   h1,h2,h3,h4,h5 {
     font-family: 'Montserrat', sans-serif;
   }
+
 .topnav {
     height: 2.5rem;
     background: #000 !important;
     color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 } 
 
 .navbar {
-  height: 2rem;
-  background: transparent !important;
-  color: #fff;
-  padding-top: 2rem;
+  height: 4rem;
+  /*background: transparent;
+  color: #fff; */
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
   
 } 
+
+/* SCROLL CHANGE COLOR */
+.navbar.scrolled {
+  background: red !important;
+  
+} 
+
+.navbar-default{
+  background:transparent;
+  border:none !important;
+}
+/* SCROLL CHANGE COLOR */
+
+
+
+/*
+.main-menu {
+  position: fixed;
+  top: 2.5rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+} */
 
 .navbar-brand { 
   padding-top: 0.3125rem;
@@ -114,9 +147,13 @@ fieldset {
   padding-bottom: 6rem;
 } 
 
+.eq-search-bar {
+  padding-top: 15rem;
+}
+
 #container1 {
   display: block;
-  margin-top: 8rem;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -444,11 +481,24 @@ background-clip: padding-box;
   max-width: 32.333333%;
 }
 
+.box-icon {
+  text-align: center;
+}
+
 .box-icon-text{
-  font-size: 4vw;
+  font-size: inherit;
+}
+
+.eq-icon-big {
+  font-size: 11vw !important;
 }
 
 /* CATEGORY */
+
+.box-item-testimonial {
+  background: #fff;
+  margin: 1.5rem;
+}
 
 .box-item {
   background: #fff;
@@ -458,6 +508,7 @@ background-clip: padding-box;
 .category-title-container {
   padding-top: .2rem;
   padding-bottom: .2rem;
+  text-transform: uppercase;
 }
 
 /* TESTIMONIANZE */
@@ -601,6 +652,24 @@ q:after {
       
 /*OWL CAROUSEL */
 
+/* NAV TYPE 1 */
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -3rem;
+}
+
+.owl-next {
+  right: -3rem;
+}
+
+/* NAV TYPE 2 
 .owl-prev,
 .owl-next {
   position: absolute;
@@ -614,9 +683,9 @@ q:after {
 
 .owl-next {
   right: -2rem;
-}
+} */
 
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     background: #000 !important;
     color: #fff !important;
     border: none;
@@ -687,6 +756,17 @@ q:after {
   margin-left: 1.4rem;
 }
 
+.inside-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.eq-testimonial-section {
+  margin-top: -1.5rem;
+}
+
 /* ICONS FA */
 .fa-inverse {
   color: #000 !important;
@@ -716,4 +796,12 @@ q:after {
 
 .eq-footer-title {
   padding-bottom: .5rem; 
+}
+
+/*Equal height rows */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
