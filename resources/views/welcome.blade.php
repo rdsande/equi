@@ -49,7 +49,7 @@
       <div class="container">
         <a class="navbar-brand" href="#"><img class="logo" src="{{asset('img/logo.png')}}"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon menu-toggler"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 section-right eq-shadow">
+      <div class="col-md-6 section-right eq-space eq-shadow">
           <div class="section-content">
               <div class="eq-sc-head">
                 <h5 class="eq-sc-title">SEI UN ORGANIZZATORE? <span class="eq-sc-title-span">METTI I TUOI BIGLIETTI 
@@ -143,7 +143,7 @@
   </div>
 
   <!-- EVENTI IN EVIDENZA SECTION -->
-  <div id="container2">
+  <div id="container3">
     <div class="section-heading">
       <div class="row">
           <div class="col-md-12">
@@ -425,7 +425,7 @@
             </div>
 
           </div>
-          <div class="col-md-4 small-box-right eq-shadow">
+          <div class="col-md-4 small-box-right eq-space eq-shadow">
               <h3 class="eq-sc-title-span text-left"> ... O DOMANDE? </h3>
               <button type="button" class="btn btn-type-4 color-primary"> Contattaci </button>
           </div>
@@ -435,7 +435,7 @@
 
     <!-- TESTIMONIANZE SECTION -->
 
-    <div id="container2">
+    <div id="container3">
       <div class="section-heading">
         <div class="row">
             <div class="col-md-12">
@@ -494,7 +494,7 @@
 
       <!-- PARLANO SECTION -->
 
-      <div id="container2">
+      <div id="container3">
         <div class="section-heading">
           <div class="row">
               <div class="col-md-12">
@@ -540,7 +540,7 @@
   <div class="footer-container">
       <div class="row footer-section-one">
         <div class="col-md-3 footer-left">
-          <a class="footer-brand" href="#"><img class="logo" src="img/logo.png"></a>
+          <a class="footer-brand" href="#"><img class="logo footer-logo" src="img/logo.png"></a>
 
           <div class="footer-icons">
               <ul class="footer-icons nav-icons">
@@ -612,7 +612,7 @@
 
     <div class="row footer-section-two">
         <div class="col-md-6">
-          <div class="copyrights">
+          <div class="copyrights eq-space">
               <span class="single"> &copy; <span id="copyr-year"></span> Fol The Beat Srl </span><span class="single">P.IVA 09321790967 </span><span class="single">Cap. Sociale € 23.703,70 i.v.</span>
           </div>
           </div>

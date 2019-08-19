@@ -150,6 +150,16 @@ fieldset {
   padding-bottom: 2rem;
 }
 
+#container3 {
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .container {
   width: 80% !important;
   padding-left: 0;
@@ -343,12 +353,6 @@ background-clip: padding-box;
 
 }
 
-@media only screen and (max-width: 767px) {
-  .eq-hero-caption-body {
-    padding: .6rem;
-  }
-}
-
 .input-group-append .fa.fa-search {
   font-size: xx-large;
 }
@@ -426,7 +430,7 @@ background-clip: padding-box;
 
 .eq-sc-title-span {
   font-weight: 700;
-  display: inline-block;
+  display: block;
 }
 
 .eq-sc-p {
@@ -907,7 +911,15 @@ a:hover {
 }
 
 #container2 {
-  width: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container3 {
+  width: 90%;
 }
 
 .col-md-6.section-left {
@@ -923,18 +935,22 @@ a:hover {
 }
 
 .eqcaptionbdtitle {
-  text-align: center;
+  font-size: 5vw;
+  text-align: left;
 }
 
 .capside-left {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;  
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;  
 }
 
 .capside-right {
-  
-}
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+
+  }
 
 .col-md-8.small-box-left {
   -ms-flex: 0 0 100%;
@@ -956,8 +972,8 @@ a:hover {
 .section-title {
   font-size: 2.4rem;
   text-align: center;
-  letter-spacing: 0;
-  margin-bottom: 1rem;
+  letter-spacing: 0 !important;
+  margin-bottom: -0.5rem;
 }
 
 .footer-container {
@@ -993,6 +1009,10 @@ a:hover {
   justify-content: center;
 }
 
+.footer-logo {
+  padding: 1rem;
+}
+
 .footer-menu {
   font-size: 4vw;
 }
@@ -1013,5 +1033,59 @@ a:hover {
   margin-top: 2rem;
 }
 
+.menu-toggler.fa {
+  font-size: 30px;
+  border: 1px solid #eee;
+  background: #f5f5f5;
+  color: black;
+  padding: 3px 5px;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 3px;
+}
+
+.span-type-2 {
+  font-weight: 700;
+  text-align: left;
+  font-size: 7vw;
+  margin-left: -9px;
 
 }
+
+.eqcaptionside {
+  font-size: 17vw;
+}
+
+.eq-hero-caption-body {
+  padding: .6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.owl-prev, .owl-next {
+  position: inherit;
+  transform: none;
+
+}
+
+.owl-prev-two, .owl-next-two {
+  position: absolute;
+   top: 1%;
+  transform: translateY(-50%);
+}
+
+.owl-prev-two {
+  right: 3rem;
+} 
+
+.owl-next-two {
+  right: 0rem;
+}
+  
+}
+

@@ -40,3 +40,22 @@ $(document).ready(function(){
     });
      }
  });
+
+ // Nav toggler
+ var m = $(".menu-toggler");
+
+        m.addClass('fa-bars');
+
+        m.on('click', function(){
+        if (m.hasClass('fa-bars')) {
+            m
+            .removeClass('fa-bars')
+            .addClass('fa-times');
+        } else {
+            m
+            .removeClass('fa-times')
+            .addClass('fa-bars');
+        }
+});
+
+
