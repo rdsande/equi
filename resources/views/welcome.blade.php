@@ -4,7 +4,8 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -96,10 +97,10 @@
             </div>
           <div class="eq-hero-caption-body">
              
-               <div class="col-md-8">
+               <div class="col-md-8 capside-left">
                  <h4 class="eqcaptionbdtitle"> Oggi il prezzo medio è più basso del</h4>
                </div>
-               <div class="col-md-4 capside">
+               <div class="col-md-4 capside-right">
                  <h1 class="eqcaptionside"> 56 <span class="span-type-2">%</span> </h1>
                </div>
              
@@ -197,12 +198,12 @@
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
-                            <img src="img/event.png">
+                            <img src="img/livello1.png">
                         </div>
                       </div>
                       <div class="row eq-sld-right">
                           <div class="col-md-6 eq-sld-price">
-                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 43.00 </h3>
                           </div>
                           <div class="col-md-6 eq-sld-btn">
                             <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
@@ -212,7 +213,7 @@
                     <div class="col-md-6">
                       <div class="eq-sld-eventdesc">
                         <div class="eq-sld-eventdesc-title">
-                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                          <h4> <span class="eq-event-name">Livello 2</span> <span class="eq-event-name">Raul Gonzales DJ </span></h4>
                         </div>
                         <div class="eq-sld-eventdesc-parag">
                             <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
@@ -232,12 +233,12 @@
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
-                            <img src="img/event.png">
+                            <img src="img/livello2.png">
                         </div>
                       </div>
                       <div class="row eq-sld-right">
                           <div class="col-md-6 eq-sld-price">
-                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.00 </h3>
                           </div>
                           <div class="col-md-6 eq-sld-btn">
                             <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
@@ -247,7 +248,7 @@
                     <div class="col-md-6">
                       <div class="eq-sld-eventdesc">
                         <div class="eq-sld-eventdesc-title">
-                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                          <h4> <span class="eq-event-name">Livello 3</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
                         </div>
                         <div class="eq-sld-eventdesc-parag">
                             <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
@@ -267,12 +268,12 @@
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
-                            <img src="img/event.png">
+                            <img src="img/livello3.png">
                         </div>
                       </div>
                       <div class="row eq-sld-right">
                           <div class="col-md-6 eq-sld-price">
-                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 120.00 </h3>
                           </div>
                           <div class="col-md-6 eq-sld-btn">
                             <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
@@ -282,7 +283,7 @@
                     <div class="col-md-6">
                       <div class="eq-sld-eventdesc">
                         <div class="eq-sld-eventdesc-title">
-                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                          <h4> <span class="eq-event-name">Livello 4</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
                         </div>
                         <div class="eq-sld-eventdesc-parag">
                             <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
@@ -302,12 +303,12 @@
                     <div class="col-md-6 eq-with-black">
                       <div class="row">
                         <div class="col-md-12 eq-sld-poster">
-                            <img src="img/event.png">
+                            <img src="img/livello4.png">
                         </div>
                       </div>
                       <div class="row eq-sld-right">
                           <div class="col-md-6 eq-sld-price">
-                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 22.0 </h3>
+                              <span class="span-currency">a partile da</span><h3 class="eq-sc-title-span"><i class="fa fa-eur"></i> 05.00 </h3>
                           </div>
                           <div class="col-md-6 eq-sld-btn">
                             <button type="button" class="btn btn-type-1 color-primary">Acquista</button>
@@ -317,7 +318,7 @@
                     <div class="col-md-6">
                       <div class="eq-sld-eventdesc">
                         <div class="eq-sld-eventdesc-title">
-                          <h4> <span class="eq-event-name">Metroman</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
+                          <h4> <span class="eq-event-name">Livello 5</span> <span class="eq-event-name">Roberto Genovese DJ </span></h4>
                         </div>
                         <div class="eq-sld-eventdesc-parag">
                             <p>Balla al ritmo dei successi anni 90 e 2000. Muovi i fianchi e divertiti con i successi degli anni passati... Per veri nostalgici!
@@ -505,7 +506,7 @@
         <!-- Item Logo -->
             <div class="item">    
               <div class="box-item-logo">
-                  <img src="/img/corriere.png" width="100%" alt="parlano di noi">
+                  <a href="#"><img src="/img/corriere.png" width="100%" alt="parlano di noi"></a>
               </div>
             </div>
 
@@ -538,66 +539,72 @@
 <footer id="footer-1">
   <div class="footer-container">
       <div class="row footer-section-one">
-        <div class="col-md-3">
+        <div class="col-md-3 footer-left">
           <a class="footer-brand" href="#"><img class="logo" src="img/logo.png"></a>
 
           <div class="footer-icons">
               <ul class="footer-icons nav-icons">
                 <li class="icon-nav">
+                <a href="#">
                   <span class="fa-stack" style="vertical-align: top;">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse" title="facebook"></i>
                   </span>
+                </a>
                 </li>
                 <li class="icon-nav">
+                <a href="#">
                   <span class="fa-stack" style="vertical-align: top;">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                   </span>
+                  </a>
                 </li>
                 <li class="icon-nav">
+                <a href="#">
                   <span class="fa-stack" style="vertical-align: top;">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                   </span>
+                  </a>
                 </li>
               </ul>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 footer-right">
             <div class="eq-footer-title">
                 <span class="footer-title"> Pagamenti Sicuri </span>
             </div>
             <div class="eq-payments">
                 <ul class="footer-icons nav-icons">
                   <li class="icon-nav">
-                      <img src="/img/ame.png" width="100%" alt="Pagamenti Sicuri" alt="American Express"> 
+                      <img src="/img/ame.png" width="100%" alt="Pagamenti Sicuri" alt="American Express" title="American Express"> 
                   </li>
                   <li class="icon-nav">
-                      <img src="/img/visa.png" width="100%" alt="Pagamenti Sicuri" alt="Visa"> 
+                      <img src="/img/visa.png" width="100%" alt="Pagamenti Sicuri" alt="Visa" title="Visa"> 
                   </li>
                   <li class="icon-nav">
-                      <img src="/img/mcard.png" width="100%" alt="Pagamenti Sicuri" alt="MasterCard"> 
+                      <img src="/img/mcard.png" width="100%" alt="Pagamenti Sicuri" alt="MasterCard" title="Mastercard"> 
                   </li>
                 </ul>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 footer-left eq-space">
           <div class="footer-menu">
               <ul class="arrow">
-                  <li>Cos’è Equiticket</li>
-                  <li>Chi Siamo</li>
-                  <li>FAQ</li>
-                  <li>Contattaci</li>
+                  <li><a href="#">Cos’è Equiticket</a></li>
+                  <li><a href="#">Chi Siamo</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contattaci</a></li>
               </ul>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 footer-right eq-space">
         <div class="footer-menu">
               <ul class="arrow">
-                  <li>Termini & Condizioni</li>
-                  <li>Cookie Policy</li>
-                  <li>Lavora con noi</li>
+                  <li><a href="#">Termini & Condizioni</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+                  <li><a href="#">Lavora con noi</a></li>
               </ul>
           </div>
         </div>
