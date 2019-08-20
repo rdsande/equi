@@ -31,13 +31,13 @@
   <nav class="topnav navbar-expand-lg" id="topnav">
     <div class="container">
       
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="nav-top">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> 0 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-eur"></i> 0.00</a>
+            <a class="nav-link" href="#"><i class="fa fa-eur eq-hor-space"></i> 0.00</a>
           </li>
         </ul>
       </div>

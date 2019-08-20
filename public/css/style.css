@@ -898,6 +898,24 @@ a:hover {
   background-color: transparent;
 }
 
+.eq-hor-space {
+  padding-right: .5rem;
+}
+
+.nav-top {
+  padding: 0 .8rem;
+  float: right;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 20px !important;
+
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+} 
+
 
 /* ----------------- MOBILE RESPONSIVENESS CSS ----------------- */
 
@@ -905,6 +923,15 @@ a:hover {
 .container {
   width: 100% !important;
 }
+
+.navbar-default {
+  background: #ccc;
+}
+
+.navbar-brand {
+  display: contents;
+}
+
 
 #container1 {
   width: 100%;
